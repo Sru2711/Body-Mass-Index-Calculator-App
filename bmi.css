@@ -1,0 +1,138 @@
+body{
+    height:100%;
+    width:100%;
+    
+    
+}
+.row{
+    
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+}
+h1{
+    font-size:80px;
+}
+.img{
+    height:80px;
+    width:70px;
+}
+.box{
+    margin-top:5px;
+    border: 5px  #00664d;
+    border-style:  double dashed double dashed;
+
+    }
+.form{
+    height:450px;
+    width:450px;
+    border:10px inset #b300b3;
+    background-color:#9fdcff;
+    
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:0px 0px 10px black;
+}   
+
+.button{
+    display:block;
+    margin-left:130px;
+    font-size:20px;
+    color:white;
+    background-color:#b30047;
+    border-radius: 10px 10px 10px 10px;
+}
+.division{
+    background-color:#809fff;
+}
+.form1{
+    height:450px;
+    width:450px;
+    background-color:#9fdcff;
+    border:10px inset #ff1a8c;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:0px 0px 10px black;
+    
+
+}
+.img1{
+    height:200px;
+    width: 360px;
+    margin-left:300px;
+    margin-top:100px;
+    border:2px solid black;
+}
+
+.medical{
+    height:50px;
+}
+.div{
+    margin-left:160px;
+    height:100px;
+    width:100px;
+    z-index:99
+
+}
+.primary{
+    margin-left:160px;
+    height:100px;
+    width:100px;
+    z-index:99;
+
+}
+.info{
+    margin-left:160px;
+    height:100px;
+    width:100px;
+    z-index:99;
+
+}
+.light{
+    
+        margin-left:160px;
+        height:100px;
+        width:100px;
+        z-index:99;
+    
+}
+.success{
+    margin-left:160px;
+    height:100px;
+    width:100px;
+    z-index:99;
+
+}
+.danger{
+    margin-left:160px;
+    height:100px;
+    width:100px;
+    z-index:99;
+
+}
+.h5{
+    text-decoration: underline;  
+}
+.divimg{
+    height:400px;
+    width:400px;
+    border: 5px solid black;
+    box-shadow:0px 0px 10px black; 
+    border-radius: 20px 20px 20px 20px;
+    margin-left:-350px;
+    margin-top:150px;
+}
+.bmi-img{
+    width:380px
+}
+
+ @media screen and (max-width:600px){
+  .row{
+        flex-direction:column;
+        
+    }
+   form1{
+       margin-left:-150px;
+   } 
+}
+.span{
+    margin-left:80px;
+}
